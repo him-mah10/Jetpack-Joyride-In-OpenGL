@@ -4,6 +4,19 @@
 
 The given game is a simulation of famous jetpack joyride game. The game has been wiritten in c++ and openGL. Open Graphics Library(OpenGL) is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics.
 
+#### How to run?
+(Showing it for Linux, similar commands could be used for other platforms)
+* First install OpenGL.
+        
+        1) For Fedora use - `sudo pkgconf-pkg-config dnf install glew-devel glfw-devel glm-devel cmake pkgconf`
+        2) For Ubuntu use - `sudo apt install libglew-dev libglfw3-dev libglm-dev cmake pkg-config`
+* Then git clone the given repo.
+* Make directory `build` and cd into it.
+* After that run `cmake ..`
+* After that run `make`
+* All the pre processing is done. Now to run the game use command `./graphics_asgn1`
+
+
 #### Gameplay
 | KEY | ACTION|
 |-----|-------|
